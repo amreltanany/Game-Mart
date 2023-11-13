@@ -1,0 +1,31 @@
+@media only screen and (width <=390px) {
+    .movee {
+        margin: 10px
+    }
+}
+
+.imgsize {
+    width: 120px !important;
+}
+
+.imgsize img {
+    border-radius: 10%
+}
+
+.increment-btn,
+.decrement-btn {
+    width: 100%;
+    height: 30px;
+
+    background-color: #fff;
+    border: 1px solid #eee;
+
+}
+
+.editshow {
+    text-align: center
+}
+
+.qty_input {
+    border: 1px solid #eee
+}

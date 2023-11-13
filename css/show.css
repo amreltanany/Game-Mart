@@ -1,0 +1,257 @@
+  #cartbutton {
+      background-image: var(--button-color) !important;
+      background-size: 200% 100%;
+      background-position: right center;
+      transition: background-position 1s;
+  }
+
+  .out {
+      background: red;
+      color: #fff;
+      padding: 10px 2px;
+      border-radius: 4%;
+      width: 190px;
+      margin: 10px;
+      text-align: center
+  }
+
+  #cartbutton:hover {
+
+      background-position: left center;
+
+  }
+
+  .show {
+      position: relative
+  }
+
+  form input:focus {
+
+      background-color: #111C2A;
+      color: #fff
+  }
+
+  .increment-btn {
+      border: none;
+      background: none;
+      position: absolute;
+      right: 121px;
+
+      border-radius: 0;
+  }
+
+  .decrement-btn {
+      border: none;
+      background: none;
+      position: absolute;
+      right: 121px;
+      height: 24%;
+      border-radius: 0;
+      bottom: 4px;
+  }
+
+  .qty_input {
+      width: 40%;
+      border-radius: 0;
+      background-color: #fff !important;
+      border: 1px solid #EEE;
+      margin-top: 4px;
+  }
+
+  .logheader {
+      float: right;
+      display: flex
+  }
+
+  .logheader div {
+      margin-right: 10px;
+      transition: 0.3s
+  }
+
+  .logheader a {
+      color: #111;
+      font-size: 17px
+  }
+
+  @media(width < 400px) {
+      .loginView {
+          width: auto !important;
+          height: 400px;
+
+      }
+  }
+
+  @media(width < 400px) {
+      .cont {
+          width: 125% !important;
+      }
+
+      .cont .row {
+          width: 100%;
+      }
+  }
+
+  .loginView {
+      width: 400px;
+      border-radius: 4%;
+      background: linear-gradient(#111419, #145197) !important;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 100000;
+      display: none;
+      transition: 3s;
+      padding: 15px;
+      opacity: 0;
+      transition: opacity 1s;
+      overflow: auto;
+
+  }
+
+  .abc {
+      font-size: 15px;
+      font-weight: 500;
+      padding: 12px 40px;
+      color: #ffffff;
+      border: none !important;
+      background-color: #123 !important;
+      border-radius: 5px;
+      margin: 17px;
+  }
+
+  .cart-button {
+      position: relative;
+      padding: 10px;
+      width: 200px;
+      height: 60px;
+      border: 0;
+      border-radius: 10px;
+      background-color: #F15412;
+      outline: none;
+      cursor: pointer;
+      color: #fff;
+      transition: .3s ease-in-out;
+      overflow: hidden;
+  }
+
+  .cart-button:hover {
+      background-color: #F15412;
+  }
+
+  .cart-button:active {
+      transform: scale(.9);
+  }
+
+  .cart-button .fa-shopping-cart {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      left: -10%;
+      font-size: 2em;
+      transform: translate(-50%, -50%);
+  }
+
+  .cart-button .fa-box {
+      position: absolute;
+      z-index: 3;
+      top: -20%;
+      left: 52%;
+      font-size: 1.2em;
+      transform: translate(-50%, -50%);
+  }
+
+  .cart-button span {
+      position: absolute;
+      z-index: 3;
+      left: 50%;
+      top: 50%;
+      font-size: 1.2em;
+      color: #fff;
+      transform: translate(-50%, -50%);
+  }
+
+  /* .cart-button span.add-to-cart {
+      opacity: 1;
+  } */
+
+  .cart-button span.added {
+      opacity: 0;
+  }
+
+  .cart-button.clicked .fa-shopping-cart {
+      animation: cart 1.5s ease-in-out forwards;
+  }
+
+  .cart-button.clicked .fa-box {
+      animation: box 1.5s ease-in-out forwards;
+  }
+
+  .cart-button.clicked span.add-to-cart {
+      animation: txt1 1.5s ease-in-out forwards;
+  }
+
+  .cart-button.clicked span.added {
+      animation: txt2 1.5s ease-in-out forwards;
+  }
+
+  @keyframes cart {
+      0% {
+          left: -10%;
+      }
+
+      40%,
+      60% {
+          left: 50%;
+      }
+
+      100% {
+          left: 110%;
+      }
+  }
+
+  @keyframes box {
+
+      0%,
+      40% {
+          top: -20%;
+      }
+
+      60% {
+          top: 40%;
+          left: 52%;
+      }
+
+      100% {
+          top: 40%;
+          left: 112%;
+      }
+  }
+
+  @keyframes txt1 {
+      0% {
+          opacity: 1;
+      }
+
+      20%,
+      100% {
+          opacity: 0;
+      }
+  }
+
+  @keyframes txt2 {
+
+      0%,
+      80% {
+          opacity: 0;
+      }
+
+      100% {
+          opacity: 1;
+      }
+  }
+
+  #hideButton {
+      background: none;
+      border: none;
+      color: #fff;
+  }

@@ -1,0 +1,157 @@
+.banner_section {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding-bottom: 200px;
+    background-size: cover;
+    color: #111 !important;
+}
+
+
+
+.shop_bt a {
+    color: #191919;
+}
+
+.shop_bt a:hover {
+    color: #599ee9;
+}
+
+.shop_bt {
+    width: 35%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    background-color: #fcfcfd;
+    color: #191919;
+    border-left: 10px solid #599ee9;
+    border-radius: 30px;
+    border-right: 10px solid #599ee9;
+    border-top: 4px solid #599ee9;
+    border-bottom: 4px solid #599ee9;
+    padding: 5px 0px;
+    margin-top: 40px;
+}
+
+.about_section {
+    width: 100%;
+    float: left;
+    background-color: #f2f7fd;
+    height: auto;
+    padding-bottom: 90px;
+}
+
+.image_2 {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #2d343e;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.lorem_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #2d343e;
+    margin-left: 0px;
+    text-align: right;
+}
+
+.shop_bt_2 a {
+    color: #191919;
+}
+
+.shop_bt_2 a:hover {
+    color: #599ee9;
+}
+
+.shop_bt_2 {
+    width: 35%;
+    float: right;
+    font-size: 18px;
+    text-align: center;
+    background-color: #fcfcfd;
+    color: #191919;
+    border-left: 10px solid #599ee9;
+    border-radius: 30px;
+    border-right: 10px solid #599ee9;
+    border-top: 4px solid #599ee9;
+    border-bottom: 4px solid #599ee9;
+    padding: 5px 0px;
+    margin-top: 40px;
+}
+
+.video_text_2 {
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #599ee9;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.video_text {
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #fefeff;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.controller_text {
+    width: 100%;
+    float: left;
+    font-size: 70px;
+    color: #599ee9;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.controller_text_2 {
+    width: 100%;
+    float: left;
+    font-size: 58px;
+    color: #fefeff;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.banner_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #111;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-top: 50px;
+}
+
+.banner_text_2 {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fefeff;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-top: 50px;
+}
+
+.image_1 {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
