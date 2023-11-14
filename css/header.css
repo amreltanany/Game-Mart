@@ -178,6 +178,26 @@ nav .wrapper {
     }
 }
 
+@media screen and (width < 500px) {
+    .big {
+        display: none;
+    }
+}
+
+
+
+@media screen and (width < 500px) {
+    .tiny {
+        display: block !important;
+    }
+}
+
+@media screen and (width > 500px) {
+    .tiny {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 970px) {
     .wrapper .btn {
         display: block;
