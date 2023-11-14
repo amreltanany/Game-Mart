@@ -186,19 +186,19 @@ nav .wrapper {
 
 
 
-@media screen and (width < 500px) {
+@media screen and (width < 499px) {
     .tiny {
         display: block !important;
     }
 }
 
-@media screen and (width < 500px) {
+@media screen and (width < 600px) {
     .cart-dropdown-wrap {
         display: none !important;
     }
 }
 
-@media screen and (width > 500px) {
+@media screen and (width > 499px) {
     .tiny {
         display: none;
     }
