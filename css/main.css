@@ -254,6 +254,7 @@ a:hover {
 
 .position-relative {
   position: relative;
+  width: 80px;
 }
 
 .height-100vh {
