@@ -198,6 +198,12 @@ nav .wrapper {
     }
 }
 
+@media screen and (width < 600px) {
+    .searchinput {
+        display: none !important;
+    }
+}
+
 @media screen and (width > 499px) {
     .tiny {
         display: none;
